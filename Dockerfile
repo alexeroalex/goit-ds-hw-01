@@ -12,7 +12,7 @@ WORKDIR $ASSISTANT
 COPY . .
 
 # Встановимо залежності всередині контейнера
-RUN pip install -r flask-docker-app/requirements.txt
+RUN pip install -r requirements.txt
 
 # Позначимо порт, де працює застосунок всередині контейнера
 EXPOSE 5000
